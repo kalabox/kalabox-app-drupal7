@@ -1,0 +1,33 @@
+{
+  "name": "kalabox-app-drupal7",
+  "description": "A simple Drupal7 app",
+  "keywords": [
+    "docker",
+    "kalabox",
+    "drupal"
+  ],
+  "version": "0.7.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kalabox/kalabox-app-drupal7"
+  },
+  "license": "MIT License",
+  "bugs": {
+    "email": "mike@kalamuna.com",
+    "url": "http://github.com/kalabox/kalabox-app-drupal7"
+  },
+  "dependencies": {
+    "kalabox-plugin-dbenv": "~0.6.0",
+    "kalabox-plugin-drush": "~0.6.0",
+    "kalabox-plugin-git": "~0.6.0",
+    "kalabox-plugin-rsync": "~0.6.0"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-bump": "0.0.16",
+    "grunt-contrib-jshint": "~0.10.0",
+    "grunt-jscs": "~0.8.1",
+    "jshint-stylish": "~1.0.0",
+    "matchdep": "^0.3.0"
+  }
+}
