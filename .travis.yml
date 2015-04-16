@@ -8,20 +8,20 @@ before_install:
 - chmod +x $HOME/travis-ci.sh
 - cp ci/npm-config.sh $HOME/
 - chmod +x $HOME/npm-config.sh
-- $HOME/travis-ci.sh before-install
+- "$HOME/travis-ci.sh before-install"
 before_script:
-- $HOME/travis-ci.sh before-script
+- "$HOME/travis-ci.sh before-script"
 script:
-- $HOME/travis-ci.sh script
+- "$HOME/travis-ci.sh script"
 after_script:
-- $HOME/travis-ci.sh after-script
+- "$HOME/travis-ci.sh after-script"
 after_success:
-- $HOME/travis-ci.sh after-success
+- "$HOME/travis-ci.sh after-success"
 before_deploy:
-- $HOME/travis-ci.sh before-deploy
+- "$HOME/travis-ci.sh before-deploy"
 - cd built
 after_deploy:
-- $HOME/travis-ci.sh after-deploy
+- "$HOME/travis-ci.sh after-deploy"
 cache:
   directories:
   - node_modules
@@ -35,6 +35,6 @@ notifications:
     on_success: always
 env:
   global:
-  - secure: PVKM/VnvjvRAkdHjE/4lLIWOrba2k1BJzdBD9JijX+/MU02L0Beyz+pIgAFLeFufIZknroaNOGKwtB4cViGGtWmA4LUuGRrTu3eriQN0isIN1e1JwTlAZxZzdQ3HWT9/mB+gnjrvF3wYV+zoeHy3p7LVfZgm+5nnzS07PvNfORE=
-  - secure: kg995IcS/dYXCM7/8zgE20fIZ6bjMbxZXrk3DMaaziIXE+esWpm9PgUmZK99ERPzl+D0VB81eFk0yY4rlI2tCJFD/dWWrpfJ9a8+47VS/7KAJMuxfu/caAfTsu2QMJPQz5BoCndnM3vRSXcuDQHm6gr+pLLRTrlkecTGWd+6UUE=
-  - secure: GhxdO2utnTWTR6XwTIm+l1SkMNga/KnRDSfgeQ/XXAxcTMu5hP2Y5+vfY0f3GYIDMS1UGkpevscfK4e6c5Me57FlCQDvt6GppvvoBwEfWFiuTbW3XXPvBo3UGBSUtFg0Kofq6EE31nw4Dzh0PPsSC/V9U1bCmxfLTiYToNQ+tvM=
+  - secure: ivVVhfUWOos3Rpe8pVk3k3It37R9zjwygI+k6tPJB+laS+MaPcU3DPW5DuRIX9jpmf0KuEZRFNwV+FDKm91Cuc6T07oGtB8lvKQgYMJl/w60pcXh4g88W0RSTkgVjFXzVoTP1TQSHpYYsjuUlhpnvZkoG1Zrs9Pb88H7Uo2KSeY=
+  - secure: SVEi0hpK92gC1xff+gwnQfY2Lsh+emJDv01skvcjpc7o0lX/Riu17sHhsOJOCLhfdIM4E4CjXcsnYgCpplueCstpKQzJuZuxzzwHEPVOU5xEM60I0iDGjyAPec1adlAlr3hWmB1Fyen2TUWrFpyCGZtsRU3z/0bt47hVeta4FkU=
+  - secure: dLOBJQfHadzphqYoAej02dnQqEjHn5Q1QKdsjV7koe33+6v9BN6mngajhy8U4GPrYrVuvFCObTQzBb2x5LdjkhxcY9EyYN05R3/O/ABxXKAfuXkB9J7aQrQ9AHgFqanTLGOo2U9BTfZGwVhDXDgS5fkt8slVNXc+RQXzT+hnlSk=

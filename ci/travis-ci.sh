@@ -2,7 +2,7 @@
 
 COMMAND=$1
 EXIT_VALUE=0
-PLUGIN_REPO="kalabox/kalabox-engine-docker"
+PLUGIN_REPO="kalabox/kalabox-app-drupal7"
 
 ##
 # SCRIPT COMMANDS
@@ -17,7 +17,7 @@ before-install() {
   if ([ $TRAVIS_BRANCH == "master" ] || [ ! -z "$TRAVIS_TAG" ]) &&
     [ $TRAVIS_PULL_REQUEST == "false" ] &&
     [ $TRAVIS_REPO_SLUG == $PLUGIN_REPO ]; then
-    openssl aes-256-cbc -K $encrypted_b16b48727d9a_key -iv $encrypted_b16b48727d9a_iv -in ci/travis.id_rsa.enc -out $HOME/.ssh/travis.id_rsa -d
+    openssl aes-256-cbc -K $encrypted_9d3a82faeb1a_key -iv $encrypted_9d3a82faeb1a_iv -in ci/travis.id_rsa.enc -out $HOME/.ssh/travis.id_rsa -d
   fi
 }
 
