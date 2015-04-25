@@ -1,5 +1,5 @@
 {
-  "appName": "drupal7",
+  "appName": "my-drupal-7-app",
   "appPlugins": [
     "kalabox-plugin-dbenv",
     "kalabox-plugin-git",
@@ -35,8 +35,8 @@
       }
     },
     "kalabox-plugin-git": {
-      "git-username": "Kalabox",
-      "git-email": "kalabox@me"
+      "git-username": "",
+      "git-email": ""
     }
   },
   "appComponents": {

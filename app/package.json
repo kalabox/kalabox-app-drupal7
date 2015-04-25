@@ -1,0 +1,9 @@
+{
+  "name": "replace-me",
+  "dependencies": {
+    "kalabox-plugin-dbenv": "~0.7.0",
+    "kalabox-plugin-drush": "https://github.com/kalabox/kalabox-plugin-drush/tarball/kboxCreate",
+    "kalabox-plugin-git": "https://github.com/kalabox/kalabox-plugin-git/tarball/kboxCreate",
+    "kalabox-plugin-rsync": "~0.7.0"
+  }
+}
