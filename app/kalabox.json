@@ -13,7 +13,14 @@
   "pluginConf": {
     "kalabox-plugin-drush": {
       "drush-version": "drush6"
-    }
+    },
+    "kalabox-plugin-dbenv": {
+      "settings": {
+        "conf": {
+          "pressflow_smart_start": 1
+        }
+      }
+    },
   },
   "appComponents": {
     "data": {
