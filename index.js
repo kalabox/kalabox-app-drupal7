@@ -42,8 +42,8 @@ module.exports = function(kbox) {
     }
   });
 
-  require('./node_modules/kalabox-plugin-drush/create.js')(kbox);
-  require('./node_modules/kalabox-plugin-git/create.js')(kbox);
+  require('./node_modules/kalabox-plugin-drush/create.js')(kbox, 'drupal7');
+  require('./node_modules/kalabox-plugin-git/create.js')(kbox, 'drupal7');
 
   // Task to create kalabox apps
   kbox.tasks.add(function(task) {

@@ -6,20 +6,19 @@
     "kalabox",
     "drupal"
   ],
-  "version": "0.7.3",
+  "version": "0.7.4",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kalabox/kalabox-app-drupal7.git"
+    "url": "https://github.com/kalabox/kalabox-app-drupal7.git"
   },
-  "license": "MIT License",
   "bugs": {
     "url": "http://github.com/kalabox/kalabox-app-drupal7",
     "email": "mike@kalamuna.com"
   },
   "dependencies": {
     "kalabox-plugin-dbenv": "~0.7.0",
-    "kalabox-plugin-drush": "https://github.com/kalabox/kalabox-plugin-drush/tarball/kboxCreate",
-    "kalabox-plugin-git": "https://github.com/kalabox/kalabox-plugin-git/tarball/kboxCreate",
+    "kalabox-plugin-drush": "~0.7.0",
+    "kalabox-plugin-git": "~0.7.0",
     "kalabox-plugin-rsync": "~0.7.0",
     "lodash": "^3.7.0"
   },
@@ -30,33 +29,5 @@
     "grunt-jscs": "~0.8.1",
     "jshint-stylish": "~1.0.0",
     "matchdep": "^0.3.0"
-  },
-  "gitHead": "58b4e9a7c8290b8a5424ac44880b6fbc2781cfae",
-  "homepage": "https://github.com/kalabox/kalabox-app-drupal7#readme",
-  "_id": "kalabox-app-drupal7@0.7.2",
-  "scripts": {},
-  "_shasum": "6a880e11ce250532da520fb01c9afda004136b93",
-  "_from": "kalabox-app-drupal7@*",
-  "_npmVersion": "2.8.3",
-  "_nodeVersion": "0.12.2",
-  "_npmUser": {
-    "name": "pirog",
-    "email": "mike@kalamuna.com"
-  },
-  "maintainers": [
-    {
-      "name": "pirog",
-      "email": "mike@kalamuna.com"
-    },
-    {
-      "name": "bcauldwell",
-      "email": "benjamin.cauldwell@gmail.com"
-    }
-  ],
-  "dist": {
-    "shasum": "6a880e11ce250532da520fb01c9afda004136b93",
-    "tarball": "http://registry.npmjs.org/kalabox-app-drupal7/-/kalabox-app-drupal7-0.7.2.tgz"
-  },
-  "directories": {},
-  "_resolved": "https://registry.npmjs.org/kalabox-app-drupal7/-/kalabox-app-drupal7-0.7.2.tgz"
+  }
 }
